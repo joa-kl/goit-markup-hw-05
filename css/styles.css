@@ -711,11 +711,11 @@ align-items: center;
     position: absolute;
     top: 8px;
     right: 8px;
-    width: 30px;
-    height: 30px;
     padding: 0;
+    width: 32px;
+    height: 32px;
     background-color: #fff;
-    border: 1px solid rgba(0, 0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     cursor: pointer;
 }
@@ -735,13 +735,3 @@ align-items: center;
     border: 1px solid #EEEEEE;
     border-top: 0;
 }
-
-/* .close-button {
-    
-    display: flex;
- 
-    
-    fill: black;
-    height: 30px;
-    width: 30px;
-} */
