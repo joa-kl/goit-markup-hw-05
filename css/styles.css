@@ -645,7 +645,7 @@ align-items: center;
     height: 4px;
     background-color:var(--brand-color);
     display: block;
-    transform: translateY(29px);
+    transform: translateY(27px);
     border-radius: 2px;
 }
      
@@ -713,8 +713,9 @@ align-items: center;
     right: 8px;
     width: 30px;
     height: 30px;
+    padding: 0;
     background-color: #fff;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 50%;
     cursor: pointer;
 }
@@ -735,3 +736,12 @@ align-items: center;
     border-top: 0;
 }
 
+/* .close-button {
+    
+    display: flex;
+ 
+    
+    fill: black;
+    height: 30px;
+    width: 30px;
+} */
